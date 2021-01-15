@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/stackcrypto/stackcrypto.github.io/issues"
   },
-  "homepage": "https://github.com/stackcrypto/stackcrypto.github.io#readme"
+  "homepage": "https://github.com/stackcrypto/stackcrypto.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
 }
