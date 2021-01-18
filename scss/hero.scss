@@ -567,7 +567,12 @@
   align-items: center;
   justify-content: center;
   border-radius: 10rem;
-  font-size: 13px
+  font-size: 13px;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 @media(min-width:992px) {
@@ -699,7 +704,7 @@
   }
 
   .hero__paragraph {
-    width: 80%
+    width: 90%
   }
 }
 
@@ -760,7 +765,7 @@
   border-radius: 2rem
 }
 
-.iphone-mockup__img {
+.hero__img {
   height: auto;
   width: 100%;
   position: relative;

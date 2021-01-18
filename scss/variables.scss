@@ -1,0 +1,13 @@
+$primary: #5e22e6;
+$secondary: #0a1f44;
+$grey: #747082;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "grey":       $grey,
+  ),
+  $theme-colors
+);
