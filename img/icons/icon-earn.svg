@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:none;stroke:#000000;stroke-width:0.9;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M0,0h24v24H0V0z"/>
+<g>
+	<rect x="1.7" y="19" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 23.4554 39.9864)" class="st1" width="20" height="2"/>
+	<polyline class="st1" points="15.5,8.4 19.8,8.4 19.8,19 3.9,19 3.9,8.4 7.9,8.4 	"/>
+	<polyline class="st1" points="13.5,15.8 13.5,13.6 15.1,13.6 15.2,12.1 13.5,10.9 13.5,5.4 11.6,3 9.7,5 9.7,10.8 8,12.1 8,13.6 
+		9.7,13.6 9.7,15.8 	"/>
+	<circle class="st1" cx="11.6" cy="9.1" r="0.6"/>
+	<line class="st1" x1="11.6" y1="14.4" x2="11.6" y2="16.6"/>
+	<path class="st1" d="M13.6,18.6c0-1.1-0.9-2-2-2s-2,0.9-2,2"/>
+	<path class="st1" d="M16.2,18.6c0-1.1-0.9-2-2-2"/>
+	<path class="st1" d="M7,18.6c0-1.1,0.9-2,2-2"/>
+</g>
+</svg>
