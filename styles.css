@@ -10049,6 +10049,10 @@ h3 {
   --space-between-blocks-small-screens: 3rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   color: var(--text-primary);
