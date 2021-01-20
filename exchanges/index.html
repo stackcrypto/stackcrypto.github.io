@@ -39,46 +39,50 @@
                 <ul class="hero__menu-content nav flex-column flex-lg-row ft-menu__slider animated list-unstyled p-2 p-lg-0">
                   <li class="flex-grow-1">
                     <ul class="nav nav--lg-side flex-column-reverse flex-lg-row-reverse list-unstyled align-items-center p-0">
-                      <li class="flex-grow-1">
+                      <!-- Nav Button -->
+                      <!-- <li class="flex-grow-1">
                         <ul class="nav nav--lg-side flex-column-reverse flex-lg-row-reverse list-unstyled align-items-center p-0">
-                          <!-- <li class="hero-nav__item">
+                          <li class="hero-nav__item">
                             <a href="#feature" class="btn btn-primary">
                             Start Stacking</a>
-                          </li> -->
+                          </li>
                         </ul>
-                      </li>
+                      </li> -->
                       <!-- NAV ITEMS -->
                       <li class="hero-nav__item"><a href="/exchanges" class="hero-nav__link">Exchanges</a></li>
                       <li class="hero-nav__item"><a href="/debit-cards" class="hero-nav__link">Debit Cards</a></li>
                       <li class="hero-nav__item"><a href="/learn-earn" class="hero-nav__link">Learn & Earn</a></li>
-                      <li class="hero-nav__item hero-nav__item--with-dropdown"><span class="hero-nav__link" tabindex="1" role="button"><span class="flex-grow-1 mr-2">Defi</span><svg class="hero-nav__item-chevron bi bi-chevron-down" width=".8em" height=".8em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <!-- DEFI Dropdown -->
+                      <li class="hero-nav__item hero-nav__item--with-dropdown">
+                        <span class="hero-nav__link" tabindex="1" role="button"><span class="flex-grow-1 mr-2">Defi</span><svg class="hero-nav__item-chevron bi bi-chevron-down" width=".8em" height=".8em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
-                          </svg></span>
+                          </svg>
+                        </span>
                         <div class="hero-nav__dropdown dropdown dropdown--of-1-columns">
                           <div class="row flex-wrap">
                             <div class="col-lg-12"><span class="dropdown__title mt-0">Decentralized Finance</span>
-                              <a href="/defi" class="dropdown__link">
+                              <a class="dropdown__link">
                                 <div>
                                   <span class="dropdown__icon">
                                     <img src="/img/icons/icon-defi-inverse.svg" alt="defi icon">
                                   </span>
                                 </div><!-- Don't remove this empty "span" --><span class="mx-2"></span><!-- ------------------------------ -->
                                 <div class="dropdown__item">
-                                  <span class="dropdown__item-title">What is Defi?</span>
+                                  <span class="dropdown__item-title">What is Defi? (Coming Soon)</span>
                                   <p class="dropdown__item-description">What is Defi? Why its important and how to get started.</p>
                                 </div>
                               </a>
-                              <a href="/income" class="dropdown__link">
+                              <a class="dropdown__link">
                                 <div><span class="dropdown__icon">
                                   <img src="/img/icons/icon-income-inverse.svg" alt="income icon">
                                 </span></div><!-- Don't remove this empty "span" --><span class="mx-2"></span><!-- ------------------------------ -->
                                 <div class="dropdown__item">
-                                  <span class="dropdown__item-title">Earn Interest Income</span>
+                                  <span class="dropdown__item-title">Earn Interest Income (Coming Soon)</span>
                                   <p class="dropdown__item-description">Interested in earning interest income? Grow your crypto wealth with these projects</p>
                                 </div>
                               </a>
                               <span class="dropdown__title mt-0">DeFi Resources</span>
-                              <a href="#" class="dropdown__link">
+                              <a class="dropdown__link">
                                 <div>
                                   <span class="dropdown__icon">
                                     <img src="/img/icons/icon-defi-list-inverse.svg" alt="defi list icon">
@@ -94,12 +98,17 @@
                       </li>
                     </ul>
                   </li>
-                </ul><button close-nav-menu="" class="ft-menu__close-btn animated"><svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                </ul>
+                <button close-nav-menu="" class="ft-menu__close-btn animated"><svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"></path>
                     <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"></path>
-                  </svg></button>
+                  </svg>
+                </button>
               </li>
-              <li class="hero-nav__item d-lg-none d-flex flex-row-reverse"><button open-nav-menu="" class="text-center px-2"><i class="fas fa-bars"></i></button></li>
+              <li class="hero-nav__item d-lg-none d-flex flex-row-reverse">
+                <button open-nav-menu="" class="text-center px-2"><i class="fas fa-bars"></i>
+                </button>
+              </li>
             </ul>
           </nav>
         </div>
@@ -145,7 +154,7 @@
   </div>
 
     <!------------------------------>
-    <!--FOLD APP---------------->
+    <!--Coinbase---------------->
     <!------------------------------>
     <div class="block-31">
       <div class="block-31__row d-block d-lg-flex row">
@@ -191,21 +200,74 @@
               </li>
             </ul>
             <a class="btn btn-primary mt-3" href="https://www.coinbase.com/join/iv_ly" target="_blank">Get $10 free BTC</a>
+            <p class="mt-3 meta">Trade $100 USD in 30 days.</p>
           </div>
         </div>
       </div>
     </div>
     <!------------------------------>
-    <!--Crypto.com---------------->
+    <!--Gemini---------------->
     <!------------------------------>
     <div class="block-31">
       <div class="block-31__row d-block d-lg-flex row flex-row-reverse">
         <div class="block-31__image-column container col-lg-6" 
-        style="background-image: url(/img/exchanges/crypto-com.jpg);">
+        style="background-image: url(/img/exchanges/gemini.jpg);">
       </div>
       </div>
       <div class="container">
         <div class="row px-2">
+          <div class="col-lg-6 px-4 px-xl-5 py-5">
+            <h5 class="text-uppercase font-weight-bold text-grey">Gemini</h5>
+            <h1 class="block__title mb-3">Buy bitcoin and crypto instantly!</h1>
+            <p class="block__paragraph mb-0">Gemini is a simple, elegant, and secure platform to build your crypto portfolio. Buying, selling, and storing your cryptocurrency has never been this seamless.</p>
+            <ul class="list-unstyled mt-5 p-0">
+              <li class="block-31__li d-flex align-items-center">
+                <span class="fr-icon m-0">
+                  📈
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-1-4H8V8h3V6h2v2h1a2.5 2.5 0 0 1 2 4 2.5 2.5 0 0 1-2 4h-1v2h-2v-2zm-1-3v1h4a.5.5 0 1 0 0-1h-4zm0-3v1h4a.5.5 0 1 0 0-1h-4z"/></svg> -->
+                </span>
+                <div class="px-2"></div>
+                <div>
+                  <p class="block-31__li-text m-0">Beginners and active traders</p>
+                </div>
+              </li>
+              <li class="block-31__li d-flex align-items-center">
+                <span class="fr-icon m-0">
+                  🔒
+                </span>
+                <div class="px-2"></div>
+                <div>
+                  <p class="block-31__li-text m-0">Built with industry-leading
+                    security</p>
+                </div>
+              </li>
+              <li class="block-31__li d-flex align-items-center">
+                <span class="fr-icon m-0">
+                  📱
+                </span>
+                <div class="px-2"></div>
+                <div>
+                  <p class="block-31__li-text m-0">Mobile apps</p>
+                </div>
+              </li>
+            </ul>
+            <a class="btn btn-primary mt-3" href="https://gemini.com/share/5y8r76cg">Earn $10 USD in bitcoin</a>
+            <p class="mt-3 meta">Trade $100 USD in 30 days.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------------>
+    <!--Cypto.com---------------->
+    <!------------------------------>
+    <div class="block-31">
+      <div class="block-31__row d-block d-lg-flex row">
+        <div class="block-31__image-column container col-lg-6" 
+        style="background-image: url(/img/exchanges/crypto-com.jpg);">
+      </div>
+      </div>
+      <div id="exchanges" class="container">
+        <div class="row px-2 flex-row-reverse">
           <div class="col-lg-6 px-4 px-xl-5 py-5">
             <h5 class="text-uppercase font-weight-bold text-grey">Crypto.com</h5>
             <h1 class="block__title mb-3">Buy, Sell and Pay with Crypto</h1>

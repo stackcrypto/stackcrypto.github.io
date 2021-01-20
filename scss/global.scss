@@ -26,6 +26,9 @@ body {
   font-family: "Poppins", sans-serif;
   color: var(--text-primary);
 }
+a {
+  cursor: pointer;
+}
 
 .space-between-blocks {
   padding-top: var(--space-between-blocks-small-screens);
@@ -189,4 +192,9 @@ button:focus {
 .fr-icon--bitcoin {
   width: 24px;
   height: 24px;
+}
+
+//Typography
+.meta {
+  font-size: 12px;
 }

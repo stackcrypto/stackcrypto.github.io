@@ -10058,6 +10058,10 @@ body {
   color: var(--text-primary);
 }
 
+a {
+  cursor: pointer;
+}
+
 .space-between-blocks {
   padding-top: var(--space-between-blocks-small-screens);
   padding-bottom: var(--space-between-blocks-small-screens);
@@ -10213,6 +10217,10 @@ button:focus {
   height: 24px;
 }
 
+.meta {
+  font-size: 12px;
+}
+
 /*------------------------------*/
 /*--Section Name----------------*/
 /*------------------------------*/
@@ -10241,6 +10249,7 @@ button:focus {
 }
 
 .hero-nav__item {
+  cursor: pointer;
   margin: auto;
   font-size: 1.1rem;
 }
